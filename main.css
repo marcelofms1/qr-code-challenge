@@ -1,21 +1,22 @@
 body{
-    background-color: #add8e6;
+    background-color: hsl(212, 45%, 89%);
     display:flex;
     justify-content: center;
     font-family: 'Bellota Text', cursive;
-    
+    margin-top:5em;
 }
 
 .white_container{
     text-align: center;
     background:white;
-    border-radius:.5em;
+    border-radius:1em;
     padding:1em;
     display:flex;
     flex-direction:column;
+    justify-content: center;
     align-items: center;
     height:auto;
-    width:40%;
+    width:70%;
 }
 
 .white_container p{
@@ -30,5 +31,25 @@ body{
 
 img{
     width:100%;
-    border-radius:.5em;
+    border-radius:1em;
+}
+
+@media only screen and (min-width: 1440px){
+    .white_container{
+        text-align: center;
+        background:white;
+        border-radius:1.5em;
+        padding:1em;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin-top:4em;
+        height:auto;
+        width:22%;
+    }
+
+    img{
+        width:100%;
+        border-radius:1.5em;
+    }
 }
