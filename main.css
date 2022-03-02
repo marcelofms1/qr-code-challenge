@@ -1,0 +1,34 @@
+body{
+    background-color: #add8e6;
+    display:flex;
+    justify-content: center;
+    font-family: 'Bellota Text', cursive;
+    
+}
+
+.white_container{
+    text-align: center;
+    background:white;
+    border-radius:.5em;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height:auto;
+    width:40%;
+}
+
+.white_container p{
+    width: 85%;
+    color:gray;
+    
+}
+.white_container h3{
+    width: 85%;
+    font-weight:900;
+}
+
+img{
+    width:100%;
+    border-radius:.5em;
+}
